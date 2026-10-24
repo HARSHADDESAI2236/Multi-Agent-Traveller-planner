@@ -51,6 +51,30 @@ CATEGORIES = {
                 "avg_budget": "₹45,000",
             },
             {
+                "name": "Switzerland, Europe",
+                "description": "Alpine escapes with snow-capped mountains, crystal-clear lakes, scenic trains, and charming villages.",
+                "image": ("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=900&q=80"),
+                "highlights": ["Swiss Alps", "Lake Cruises", "Scenic Train Rides", "Mountain Hiking"],
+                "best_time": "June – September; December – March for snow",
+                "avg_budget": "₹1,50,000"
+            },
+             {
+                "name": "Japan",
+                "description": "Cultural journeys blending ancient shrines, peaceful gardens, neon-lit cities, and breathtaking cherry blossoms.",
+                "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Mount Fuji", "Cherry Blossoms", "Temple Visits", "Traditional Cuisine"],
+                "best_time": "March – May; October – November",
+                "avg_budget": "₹1,00,000"
+            },
+             {
+                "name": "Dubai, UAE",
+                "description": "Modern city adventures featuring futuristic skyscrapers, golden deserts, luxury shopping, and vibrant nightlife.",
+                "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Burj Khalifa", "Desert Safari", "Luxury Shopping", "Marina Cruises"],
+                "best_time": "November – March",
+                "avg_budget": "₹65,000"
+            },
+            {
                 "name": "Maldives",
                 "description": "Crystal-clear lagoons and overwater villas in a paradise archipelago.",
                 "image": (
@@ -60,6 +84,46 @@ CATEGORIES = {
                 "highlights": ["Snorkeling", "Overwater Villas", "Sunset Cruises", "Diving"],
                 "best_time": "November – April",
                 "avg_budget": "₹1,20,000",
+            },
+             {
+                "name": "Thailand",
+                "description": "Tropical adventures with lively street markets, golden temples, tropical islands, and flavorful local cuisine.",
+                "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Island Hopping", "Temple Tours", "Street Food", "Beach Adventures"],
+                "best_time": "November – February",
+                "avg_budget": "₹40,000"
+            },
+             {
+                "name": "Paris, France",
+                "description": "Romantic city escapes filled with iconic landmarks, charming cafés, world-class art, and elegant streets.",
+                "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Eiffel Tower", "Louvre Museum", "Seine River Cruise", "French Cafés"],
+                "best_time": "April – June; September – October",
+                "avg_budget": "₹1,20,000"
+            },
+            {
+                "name": "Singapore",
+                "description": "A vibrant urban getaway with futuristic gardens, waterfront skylines, cultural neighborhoods, and exciting attractions.",
+                "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Gardens by the Bay", "Marina Bay Sands", "Sentosa Island", "Night Safari"],
+                "best_time": "February – April",
+                "avg_budget": "₹55,000"
+            },
+             {
+                "name": "New Zealand",
+                "description": "Outdoor escapes across dramatic fjords, emerald lakes, snow-capped peaks, and rolling countryside.",
+                "image": "https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Milford Sound", "Lake Tekapo", "Mountain Hiking", "Adventure Sports"],
+                "best_time": "December – March",
+                "avg_budget": "₹1,80,000"
+            },
+            {
+                "name": "Iceland, Europe",
+                "description": "Arctic escapes featuring powerful waterfalls, volcanic landscapes, glaciers, and magical Northern Lights.",
+                "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=900&q=80",
+                "highlights": ["Northern Lights", "Glacier Adventures", "Waterfall Tours", "Geothermal Spas"],
+                "best_time": "June – August; September – March for Northern Lights",
+                "avg_budget": "₹1,50,000"
             },
             {
                 "name": "Phuket, Thailand",
@@ -101,6 +165,108 @@ CATEGORIES = {
                 "best_time": "October – February / March – June",
                 "avg_budget": "₹15,000",
             },
+                        
+            {
+                "name": "Dolomites, Italy",
+                "description": "Dramatic limestone peaks, alpine meadows, and peaceful mountain villages with breathtaking hiking trails.",
+                "image": (
+                    "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Mountain Hiking", "Alpine Lakes", "Cable Cars", "Scenic Villages"],
+                "best_time": "June – September / December – March",
+                "avg_budget": "₹1,20,000",
+            },
+            {
+                "name": "Sikkim, India",
+                "description": "A peaceful Himalayan escape with snow-covered peaks, Buddhist monasteries, and spectacular mountain valleys.",
+                "image": (
+                    "https://images.unsplash.com/photo-1622308644420-b20142dc993c"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Kanchenjunga Views", "Monastery Tours", "Tsomgo Lake", "Mountain Drives"],
+                "best_time": "March – May / October – November",
+                "avg_budget": "₹20,000",
+            },
+            {
+                "name": "Banff, Canada",
+                "description": "A breathtaking mountain retreat with turquoise alpine lakes, towering peaks, evergreen forests, and cozy lodges.",
+                "image": (
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEdcNinz2g0GpgPCT2x-XZp3mmHSbg1a-w2cWdCrMKg&s=10"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Lake Louise", "Mountain Hiking", "Wildlife Watching", "Gondola Rides"],
+                "best_time": "June – September / December – March",
+                "avg_budget": "₹1,80,000",
+            },
+            {
+                "name": "Swiss Jura, Switzerland",
+                "description": "Quiet mountain escapes with forested ridges, rolling green hills, and charming countryside villages.",
+                "image": (
+                    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Forest Hiking", "Mountain Views", "Village Stays", "Nature Trails"],
+                "best_time": "May – October",
+                "avg_budget": "₹1,30,000",
+            },
+            {
+                "name": "Gulmarg, India",
+                "description": "A Himalayan paradise with snowy slopes, pine forests, alpine meadows, and spectacular mountain scenery.",
+                "image": (
+                    "https://images.unsplash.com/photo-1605649487212-47bdab064df7"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Gondola Rides", "Skiing", "Snowboarding", "Alpine Meadows"],
+                "best_time": "December – March / May – September",
+                "avg_budget": "₹18,000",
+            },
+            {
+                "name": "Zermatt, Switzerland",
+                "description": "An elegant alpine retreat beneath the iconic Matterhorn, featuring mountain railways and peaceful car-free streets.",
+                "image": (
+                    "https://images.unsplash.com/photo-1531366936337-7c912a4589a7"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Matterhorn Views", "Gornergrat Railway", "Skiing", "Alpine Hiking"],
+                "best_time": "June – September / December – March",
+                "avg_budget": "₹1,60,000",
+            },
+            {
+                "name": "Queenstown, New Zealand",
+                "description": "A scenic lakeside mountain getaway surrounded by dramatic peaks, vineyards, and adventure-filled valleys.",
+                "image": (
+                    "https://images.unsplash.com/photo-1469521669194-babb45599def"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Lake Wakatipu", "Mountain Gondola", "Hiking", "Adventure Sports"],
+                "best_time": "December – February / June – August",
+                "avg_budget": "₹1,70,000",
+            },
+            {
+                "name": "Leh-Ladakh, India",
+                "description": "A high-altitude Himalayan escape with rugged mountains, ancient monasteries, crystal-blue lakes, and winding roads.",
+                "image": (
+                    "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Pangong Lake", "Nubra Valley", "Monastery Visits", "Mountain Road Trips"],
+                "best_time": "May – September",
+                "avg_budget": "₹25,000",
+            },
+            {
+                "name": "Chamonix, France",
+                "description": "A classic alpine retreat beneath Mont Blanc, with glacier panoramas, mountain cable cars, and picturesque chalets.",
+                "image": (
+                    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Mont Blanc Views", "Glacier Excursions", "Cable Cars", "Alpine Hiking"],
+                "best_time": "June – September / December – March",
+                "avg_budget": "₹1,40,000",
+            },
+
+
             {
                 "name": "Patagonia, Argentina",
                 "description": "Untamed wilderness of glaciers, forests, and turquoise lakes.",
@@ -112,7 +278,7 @@ CATEGORIES = {
                 "best_time": "October – March",
                 "avg_budget": "₹2,00,000",
             },
-        ],
+        ]
     },
     "COASTAL GETAWAY": {
         "icon": "🌊",
@@ -129,6 +295,94 @@ CATEGORIES = {
                 "highlights": ["Oia Sunset", "Wine Tasting", "Caldera Cruise", "Greek Cuisine"],
                 "best_time": "April – October",
                 "avg_budget": "₹1,00,000",
+            },
+             {
+                "name": "Langkawi, Malaysia",
+                "description": "A tropical island escape with emerald rainforests, turquoise bays, sandy beaches, and spectacular coastal views.",
+                "image": (
+                    "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Island Hopping", "Sky Bridge", "Mangrove Tours", "Beach Sunsets"],
+                "best_time": "November – April",
+                "avg_budget": "₹45,000",
+            },
+            {
+                "name": "Krabi, Thailand",
+                "description": "A stunning seaside retreat featuring limestone cliffs, hidden lagoons, tropical beaches, and clear blue waters.",
+                "image": (
+                    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Railay Beach", "Four Islands Tour", "Kayaking", "Snorkeling"],
+                "best_time": "November – April",
+                "avg_budget": "₹40,000",
+            },
+            {
+                "name": "Mauritius",
+                "description": "A beautiful Indian Ocean escape with coral reefs, volcanic scenery, palm-lined shores, and peaceful lagoons.",
+                "image": (
+                    "https://images.unsplash.com/photo-1519046904884-53103b34b206"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Catamaran Cruises", "Coral Reef Diving", "Chamarel", "Beach Resorts"],
+                "best_time": "May – December",
+                "avg_budget": "₹85,000",
+            },
+            {
+                "name": "Zanzibar, Tanzania",
+                "description": "An exotic coastal escape blending white-sand beaches, turquoise waters, spice plantations, and historic island culture.",
+                "image": (
+                    "https://images.unsplash.com/photo-1544551763-46a013bb70d5"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Stone Town", "Dhow Sailing", "Snorkeling", "Spice Tours"],
+                "best_time": "June – October / December – February",
+                "avg_budget": "₹90,000",
+            },
+            {
+                "name": "Algarve, Portugal",
+                "description": "A sun-soaked European coastline with golden cliffs, sea caves, charming fishing towns, and hidden sandy coves.",
+                "image": (
+                    "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Benagil Cave", "Coastal Hiking", "Boat Tours", "Seafood Dining"],
+                "best_time": "May – September",
+                "avg_budget": "₹1,10,000",
+            },
+            {
+                "name": "Pondicherry, India",
+                "description": "A charming seaside getaway with French colonial streets, colorful cafés, tranquil promenades, and coastal sunsets.",
+                "image": (
+                    "https://images.unsplash.com/photo-1473116763249-2faaef81ccda"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Promenade Beach", "French Quarter", "Auroville", "Café Hopping"],
+                "best_time": "October – March",
+                "avg_budget": "₹12,000",
+            },
+            {
+                "name": "Palawan, Philippines",
+                "description": "A tropical paradise of dramatic limestone islands, hidden lagoons, turquoise seas, and pristine white beaches.",
+                "image": (
+                    "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["El Nido Lagoons", "Island Hopping", "Kayaking", "Coral Reefs"],
+                "best_time": "November – May",
+                "avg_budget": "₹75,000",
+            },
+            {
+                "name": "Kovalam, India",
+                "description": "A relaxing beach destination with crescent-shaped shores, swaying palms, lighthouse views, and traditional wellness retreats.",
+                "image": (
+                    "https://images.unsplash.com/photo-1500375592092-40eb2168fd21"
+                    "?auto=format&fit=crop&w=900&q=80"
+                ),
+                "highlights": ["Lighthouse Beach", "Ayurvedic Spas", "Surfing", "Seafood"],
+                "best_time": "November – February",
+                "avg_budget": "₹15,000",
             },
             {
                 "name": "Goa, India",
@@ -1209,9 +1463,24 @@ def render_explore():
 
     # ─── Category selector tabs ───
     cat_keys = list(CATEGORIES.keys())
-    cat_columns = st.columns(3)
+    cat_columns = st.columns(len(cat_keys) + 1)
 
-    for col, cat_key in zip(cat_columns, cat_keys):
+    with cat_columns[0]:
+        st.markdown(
+            """
+            <div class="category-tab">
+                <div class="cat-icon">🌍</div>
+                <div class="cat-title">ALL DESTINATIONS</div>
+                <div class="cat-desc">Browse all options across every category</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        if st.button("Show All Places", key="cat_all", use_container_width=True):
+            st.session_state["selected_category"] = None
+            st.rerun()
+
+    for col, cat_key in zip(cat_columns[1:], cat_keys):
         cat = CATEGORIES[cat_key]
         with col:
             st.markdown(
@@ -1219,7 +1488,7 @@ def render_explore():
                 <div class="category-tab">
                     <div class="cat-icon">{cat["icon"]}</div>
                     <div class="cat-title">{cat_key}</div>
-                    <div class="cat-desc">{cat["description"]}</div>
+                    <div class="cat-desc">{len(cat["places"])} places · {cat["description"]}</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -1232,86 +1501,59 @@ def render_explore():
                 st.session_state["selected_category"] = cat_key
                 st.rerun()
 
-    # ─── Show places for selected category ───
+    # ─── Show places for selected category or all categories ───
     selected_cat = st.session_state.get("selected_category")
 
     if selected_cat and selected_cat in CATEGORIES:
-        cat_data = CATEGORIES[selected_cat]
+        cats_to_display = [selected_cat]
+        if st.button("← Show All Categories", key="show_all_btn"):
+            st.session_state["selected_category"] = None
+            st.rerun()
+    else:
+        cats_to_display = cat_keys
 
+    for cat_name in cats_to_display:
+        cat_data = CATEGORIES[cat_name]
         st.markdown(
             f"""
-            <div class="section">
-                <div class="section-kicker">{selected_cat}</div>
-                <div class="section-title">{cat_data["icon"]}  {selected_cat.title()} Destinations</div>
+            <div class="section" style="padding-top: 35px; padding-bottom: 12px;">
+                <div class="section-kicker">{cat_name}</div>
+                <div class="section-title">{cat_data["icon"]}  {cat_name.title()} Destinations <span style="font-size:20px; font-weight:normal; color:var(--muted);">({len(cat_data["places"])} places)</span></div>
                 <div class="section-desc">{cat_data["description"]}</div>
             </div>
             """,
             unsafe_allow_html=True,
         )
 
-        place_cols = st.columns(3)
-        for col, place in zip(place_cols, cat_data["places"]):
-            with col:
-                st.markdown(
-                    f"""
-                    <div class="destination-card"
-                        style="background-image: url('{place["image"]}');">
-                        <div class="destination-overlay">
-                            <div class="destination-tag">{selected_cat}</div>
-                            <div class="destination-name">{place["name"]}</div>
-                            <div class="destination-desc">{place["description"][:60]}…</div>
+        places = cat_data["places"]
+        row_size = 3
+        for row_start in range(0, len(places), row_size):
+            row_items = places[row_start : row_start + row_size]
+            cols = st.columns(3)
+            for col_idx, place in enumerate(row_items):
+                with cols[col_idx]:
+                    st.markdown(
+                        f"""
+                        <div class="destination-card"
+                            style="background-image: url('{place["image"]}');">
+                            <div class="destination-overlay">
+                                <div class="destination-tag">{cat_name}</div>
+                                <div class="destination-name">{place["name"]}</div>
+                                <div class="destination-desc">{place["description"][:60]}…</div>
+                            </div>
                         </div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                        """,
+                        unsafe_allow_html=True,
+                    )
 
-                if st.button(
-                    f"Explore {place['name']}  →",
-                    key=f"place_{place['name']}",
-                    use_container_width=True,
-                ):
-                    st.session_state["selected_place"] = place["name"]
-                    st.session_state["page"] = "place_detail"
-                    st.rerun()
-    else:
-        # Show a preview of all categories' top places
-        st.markdown(
-            """
-            <div class="section">
-                <div class="section-kicker">POPULAR PICKS</div>
-                <div class="section-title">Choose a category above to explore more</div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        preview_cols = st.columns(3)
-        for col, cat_key in zip(preview_cols, cat_keys):
-            cat = CATEGORIES[cat_key]
-            first_place = cat["places"][0]
-            with col:
-                st.markdown(
-                    f"""
-                    <div class="destination-card"
-                        style="background-image: url('{first_place["image"]}');">
-                        <div class="destination-overlay">
-                            <div class="destination-tag">{cat_key}</div>
-                            <div class="destination-name">{first_place["name"]}</div>
-                            <div class="destination-desc">{first_place["description"][:60]}…</div>
-                        </div>
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
-                if st.button(
-                    f"Explore {first_place['name']}  →",
-                    key=f"preview_{first_place['name']}",
-                    use_container_width=True,
-                ):
-                    st.session_state["selected_place"] = first_place["name"]
-                    st.session_state["page"] = "place_detail"
-                    st.rerun()
+                    if st.button(
+                        f"Explore {place['name']}  →",
+                        key=f"place_{cat_name}_{place['name']}_{row_start + col_idx}",
+                        use_container_width=True,
+                    ):
+                        st.session_state["selected_place"] = place["name"]
+                        st.session_state["page"] = "place_detail"
+                        st.rerun()
 
 
 # =========================================================
@@ -1615,7 +1857,7 @@ def render_place_detail():
                                     <div class="fc-route">{f.departure} → {f.arrival}</div>
                                 </div>
                                 <div class="fc-duration">{f.duration_hours}h</div>
-                                <div class="fc-price">${f.price:,.2f}</div>
+                                <div class="fc-price">₹{f.price:,.0f}</div>
                             </div>
                             """,
                             unsafe_allow_html=True,
@@ -1646,7 +1888,7 @@ def render_place_detail():
                                         <div class="hc-rating">★ {h.rating}</div>
                                     </div>
                                     <div class="hc-neighborhood">📍 {h.neighborhood} · {stars}</div>
-                                    <div class="hc-price">${h.price_per_night:,.2f} <span>/ night</span></div>
+                                    <div class="hc-price">₹{h.price_per_night:,.0f} <span>/ night</span></div>
                                 </div>
                                 """,
                                 unsafe_allow_html=True,
@@ -1667,32 +1909,46 @@ def render_place_detail():
 
                     def weather_emoji(summary: str) -> str:
                         s = summary.lower()
-                        if 'sunny' in s or 'clear' in s:
+                        if 'clear' in s or 'sunny' in s:
                             return '☀️'
+                        elif 'mainly clear' in s:
+                            return '🌤️'
                         elif 'partly' in s:
                             return '⛅'
-                        elif 'rain' in s:
+                        elif 'overcast' in s:
+                            return '☁️'
+                        elif 'fog' in s:
+                            return '🌫️'
+                        elif 'drizzle' in s:
+                            return '🌦️'
+                        elif 'snow' in s or 'freezing' in s:
+                            return '❄️'
+                        elif 'thunder' in s or 'storm' in s:
+                            return '⛈️'
+                        elif 'rain' in s or 'shower' in s:
                             return '🌧️'
                         elif 'cloud' in s:
                             return '☁️'
-                        elif 'storm' in s or 'thunder' in s:
-                            return '⛈️'
-                        elif 'snow' in s:
-                            return '❄️'
                         return '🌤️'
 
-                    weather_cols = st.columns(min(len(plan.weather), 3))
-                    for col, w in zip(weather_cols, plan.weather):
-                        icon = weather_emoji(w.summary)
-                        with col:
-                            st.html(
-                                f'<div class="weather-card">'
-                                f'<div class="wc-day">{w.date}</div>'
-                                f'<div class="wc-icon">{icon}</div>'
-                                f'<div class="wc-summary">{w.summary}</div>'
-                                f'<div class="wc-temps"><strong>{w.high_c}&deg;</strong> / {w.low_c}&deg;C</div>'
-                                f'</div>'
-                            )
+                    # Show weather cards — up to 7 days, in rows of 3-4
+                    display_weather = plan.weather[:7]
+                    # Split into rows for clean layout
+                    row_size = min(len(display_weather), 4)
+                    for row_start in range(0, len(display_weather), row_size):
+                        row_items = display_weather[row_start:row_start + row_size]
+                        weather_cols = st.columns(len(row_items))
+                        for col, w in zip(weather_cols, row_items):
+                            icon = weather_emoji(w.summary)
+                            with col:
+                                st.html(
+                                    f'<div class="weather-card">'
+                                    f'<div class="wc-day">{w.date}</div>'
+                                    f'<div class="wc-icon">{icon}</div>'
+                                    f'<div class="wc-summary">{w.summary}</div>'
+                                    f'<div class="wc-temps"><strong>{w.high_c}&deg;</strong> / {w.low_c}&deg;C</div>'
+                                    f'</div>'
+                                )
 
                 # ─── Itinerary section ───
                 if plan.itinerary:
