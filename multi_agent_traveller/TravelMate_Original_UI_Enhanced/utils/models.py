@@ -14,6 +14,8 @@ class TripRequest:
     budget: Optional[float] = None
     travelers: int = 1
     preferences: List[str] = field(default_factory=list)
+    pace: str = "Balanced"
+    accommodation: str = "Any"
 
 
 @dataclass

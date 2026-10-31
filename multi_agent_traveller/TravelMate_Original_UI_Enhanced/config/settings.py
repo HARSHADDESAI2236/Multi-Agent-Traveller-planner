@@ -15,8 +15,8 @@ load_dotenv()
 
 @dataclass(frozen=True)
 class Settings:
-    anthropic_api_key: str = os.getenv("ANTHROPIC_API_KEY", "")
-    model_name: str = os.getenv("MODEL_NAME", "claude-sonnet-5")
+    gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
+    model_name: str = os.getenv("MODEL_NAME", "gemini-1.5-flash")
 
     flight_api_key: str = os.getenv("FLIGHT_API_KEY", "")
     hotel_api_key: str = os.getenv("HOTEL_API_KEY", "")

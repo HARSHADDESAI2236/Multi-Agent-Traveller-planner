@@ -29,9 +29,12 @@ def test_hotel_agent_returns_sorted_hotels():
     assert prices == sorted(prices)
 
 
-def test_weather_agent_returns_forecasts():
-    weather = WeatherAgent().run(make_request())
-    assert len(weather) == 3
+def test_weather_agent_returns_forecasts_for_requested_trip_duration():
+    request = make_request()
+    weather = WeatherAgent().run(request)
+    # One forecast per trip day; API fallback may return estimated data offline.
+    assert len(weather) == 6
+    assert all(item.summary for item in weather)
 
 
 def test_itinerary_agent_builds_days_matching_weather():
